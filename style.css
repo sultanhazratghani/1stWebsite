@@ -1,0 +1,108 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width:100;
+    background-color: aquamarine;
+    
+}
+#nav{
+    height: 70px;
+    width:100%;
+   display: flex; 
+     align-items: center; 
+     justify-content: space-between;  
+    padding: 0px 30px;
+}
+
+#nav-1{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+#nav h3{
+    font-size: 17px;
+    font-weight:500;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+#nav i{
+    font-size:17px;
+    font-weight:500;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 12px;
+    border-radius: 50px;
+    
+}
+#btn2{
+    border: none;
+    color: white;
+    background-color: orangered;
+    
+}
+#main>h1{
+    font-size: 100px;
+    font-weight:5000;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    bottom:50%;
+    translate:tranform(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    width:300px;
+    object-fit: cover;
+    object-position: top;
+    position:absolute;
+    top: 50%;
+    left: 48%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform:translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform:translate(-50%,-50%) rotate(-10deg);
+}
+
+#img4{
+    transform:translate(-50%,-50%) rotate(0deg);
+}
+
+#search{
+    background-color: bisque;
+    height: 30px;
+    width: 200px;
+} 
